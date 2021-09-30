@@ -27,7 +27,7 @@ And alternativelty to using Docker you can run this in your local machine if Pyt
 
 Both alternatives manually require you to create .secret files
 
-	# printf "smtp.mydomain.com" > ./.secret.server
-	# printf "email@mydomain.com" > ./.secret.from
-	# printf "alert@mydomain.com" > ./.secret.to
-	# printf "myAMAZINGpassword" > ./.secret.pass
+	# printf "smtp.mydomain.com" > ./.secret.server  # your smtp server
+	# printf "email@mydomain.com" > ./.secret.from   # your smtp login username (and email sender/from address)
+	# printf "myAMAZINGpassword" > ./.secret.pass    # yoyr smtp login password (in plain-text)
+	# printf "alert@mydomain.com" > ./.secret.to     # email address to send to
