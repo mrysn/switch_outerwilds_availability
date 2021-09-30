@@ -1,4 +1,5 @@
-switch_outerwilds_availability - python script that scrapes to check if Outer Wilds is available yet on the Nintendo Switch, sends an email with the result.
+# About
+A python script that scrapes to check if Outer Wilds is available yet on the Nintendo Switch, sends an email with the result.
 # Requirements
 - Docker or Python 3 (with `beautifulsoup4` and `requests` installed)
 - SMTP server with STARTTLS on port 587
